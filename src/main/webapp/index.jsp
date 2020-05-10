@@ -39,7 +39,7 @@
         <div class="col s4">
             <div class="row " style="text-align: center;margin-top: 100px;"><h2 class="red accent-1" style="color:#ffffff;">Smit's
                 Calculator</h2></div>
-            <div class="row red lighten-5">
+            <div class="row red lighten-5" style="padding-left: 10px;">
                 <div style="margin-top: 50px;">
                     <form action="calculateExpr" method="POST">
                         <table border="1" class="table">
@@ -59,7 +59,7 @@
                                 <td><input type="button" class="btn-large" onclick="dis('5')" value="5"/></td>
                                 <td><input type="button" class="btn-large" onclick="dis('6')" value="6"/></td>
                                 <td><input type="button" class="btn-large" onclick="dis('-')" value="-"/></td>
-                                <td><input type="button" class="btn-large" onclick="dis('(')" value=")"/></td>
+                                <td><input type="button" class="btn-large" onclick="dis('(')" value="("/></td>
                             </tr>
                             <tr>
                                 <td><input type="button" class="btn-large" onclick="dis('7')" value="7"/></td>
