@@ -36,10 +36,10 @@
     <body>
     <div class="container row">
         <div class="col s4"></div>
-        <div class="col s4">
+        <div class="col">
             <div class="row " style="text-align: center;margin-top: 100px;"><h2 class="red accent-1" style="color:#ffffff;">Smit's
                 Calculator</h2></div>
-            <div class="row red lighten-5" style="padding-left: 10px;">
+            <div class="row red lighten-5" style="padding-left: 10px; padding-right: 10px;">
                 <div style="margin-top: 50px;">
                     <form action="calculateExpr" method="POST">
                         <table border="1" class="table">
